@@ -31,7 +31,7 @@ body {
   background-color: #bdc3c7;
 }
 .obsah{
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   color: #bdc3c7;
 }
 .jmeno{
@@ -47,8 +47,9 @@ body {
 }
 .odkazy li{
   display: inline-block;
-  padding: 0;
+  padding: 5px;
   text-align: center;
+  margin-top: 0;
 
 }
 ul{
@@ -78,11 +79,12 @@ ul{
   
 }
 a{
-  font-size: 15px;
+  font-size: 20px;
   color: #bdc3c7;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 .facebook:hover{
   background-color: #3b5998;
@@ -90,6 +92,8 @@ a{
 .twitter:hover{
   background-color: #1da1f2;
 }
+
+
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -110,9 +114,10 @@ a{
   font-weight: <weight>;
   font-style: normal;
 }
+
 .jmeno{
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
 }
-p{
-  font-family: Source Code Pro;
+p {
+  font-family: "Source Code Pro", monospace;
 }
